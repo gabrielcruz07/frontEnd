@@ -1,0 +1,66 @@
+/* CSS Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+body {
+  display: flex; /* Ativa o Flexbox no body */
+  flex-direction: column; /* Organiza os itens verticalmente */
+  min-height: 100vh; /* Garante que o body ocupe pelo menos a altura da tela */
+  line-height: 1.5;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header {
+  background-color: rgb(62, 252, 62);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+}
+
+.menu {
+  background-color: rgb(19, 19, 204);
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Ajuste aqui, não precisa de flex-direction: column */
+  height: 40px;
+}
+
+.content {
+  background-color: rgb(22, 228, 243);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1; /* Faz o conteúdo ocupar o espaço restante */
+  flex-direction: column; /* Mantém a direção vertical para o conteúdo interno */
+}
+
+.footer {
+  background-color: rgb(62, 252, 62);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+}

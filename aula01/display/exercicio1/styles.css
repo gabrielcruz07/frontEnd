@@ -1,0 +1,31 @@
+body{
+    background-color: #aa1515;
+}
+
+h1{
+    text-align: center;
+}
+
+div{
+    background-color: blue;
+}
+
+.container-preparo{
+    background-color: palevioletred;
+    color: white;
+    border-radius: 8px;
+}
+
+.container-preparo li{
+    font-size: 2rem;
+}
+
+#ingredientes{
+    background-color: darkkhaki;
+    color: brown;
+    border-radius: 8px;
+}
+
+/*unidades de medida*/
+/* px - unidaed de medida fixa*/
+/* rem - unidade de medida relativa*/
