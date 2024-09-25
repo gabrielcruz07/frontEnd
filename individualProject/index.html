@@ -5,11 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CROSS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
     <header>
-        <nav>
+        <nav aria-label="Navegação da barra do topo">
             <section class="logo"><img src="./assets/logo.png" alt="pessoa praticando mountain bike">
                 <h1><em><abbr title="Bike world">CROSS</abbr></em></h1>
             </section>
@@ -37,19 +39,21 @@
     <main>
         <section class="container-title">
             <h2>Bem-vindo, aqui você encontra tudo sobre o mundo da bicicleta!</h2>
-            <p>Você pode encontrar aqui informações sobre os principais estilos de bicicleta, principais competições, entre outros. </p>
+            <p>Você pode encontrar aqui informações sobre os principais estilos de bicicleta, principais competições,
+                entre outros. </p>
         </section>
         <section class="container-menu" id="Sites">
             <h2>Fique a vontade para explorar!</h2>
             <article>
-                <a href="https://www.bikemagazine.com.br/2024/07/ciclismo-resultado-final-tour-de-france-2024-pogacar-e-tricampeao-e-faz-historia-com-vitoria-dupla-giro-tour-double-cycling-grand-tour/"target = "_blank">
+                <a href="https://www.bikemagazine.com.br/2024/07/ciclismo-resultado-final-tour-de-france-2024-pogacar-e-tricampeao-e-faz-historia-com-vitoria-dupla-giro-tour-double-cycling-grand-tour/"
+                    target="_blank">
                     <img src="./assets/tourDeFrance.jpg" alt="Ciclistas no Tour de France">
                     <h2>Tour de France!</h2>
                     <p>Veja todos os detalhes de como foi a competição do ano de 2024.</p>
-                </a>      
+                </a>
             </article>
             <article>
-                <a href="https://tropixbike.com.br/melhor-marca-de-bicicleta/" target ="_blank">
+                <a href="https://tropixbike.com.br/melhor-marca-de-bicicleta/" target="_blank">
                     <img src="./assets/top10.jpg" alt="Mountain bike">
                     <h2>Veja!</h2>
                     <p>Pesquisa sobre as 10 melhores marcas de bicicleta atualmente</p>
@@ -63,29 +67,27 @@
                 </a>
             </article>
             <article>
-                <a href="https://www.brasilride.com.br/prova/BRASIL_RIDEBAHIA_2024" target ="_blank">
+                <a href="https://www.brasilride.com.br/prova/BRASIL_RIDEBAHIA_2024" target="_blank">
                     <img src="./assets/brasilRide.jpg" alt="Brasil Ride 2024">
                     <h2>Brasil Ride!</h2>
                     <p>Uma das maiores competições de bicicleta do Brasil</p>
                 </a>
             </article>
             <article>
-                <a href="https://www.decathlon.com.br/" target ="_blank">
+                <a href="https://www.decathlon.com.br/" target="_blank">
                     <img src="./assets/decathlon.jpg" alt="Loja da Decathlon">
                     <h2>Excelentes preços!</h2>
                     <p>Conheça uma das melhores lojas para comprar acessórios de bicicleta</p>
                 </a>
             </article>
             <article>
-                <a href="https://blog.esportudo.com/conheca-os-maiores-ciclistas-de-todos-os-tempos" target = "_blank">
+                <a href="https://blog.esportudo.com/conheca-os-maiores-ciclistas-de-todos-os-tempos" target="_blank">
                     <img src="./assets/maioresCiclistas.jpg" alt="foto de Eddie Merckx">
                     <h2>Dê uma olhada nessa lista!</h2>
                     <p>Os 4 melhores ciclistas de todos os tempos.</p>
-                </a>    
+                </a>
             </article>
         </section>
-    </main>
-    <footer>
         <h2 class="section-title">Sobre o Desenvolvedor</h2>
         <section class="container-about" id="Sobre">
             <div class="container-about-img">
@@ -93,13 +95,63 @@
             </div>
             <div class="container-about-description">
                 <p>
-                     <!-- COLOCAR DESCRIÇÃO SOBRE MIM -->
+                    <!-- COLOCAR DESCRIÇÃO SOBRE MIM -->
                 </p>
             </div>
         </section>
-        <section class="newsletter">
-            <!-- CONTINUAR AMANHÃ -->
+        <h2 class="section-title">Newsletter</h2>
+        <section class="container-newsletter">
+            <section class="container-text-newsletter">
+                <h2>Se inscreva na nossa Newsletter!</h2>
+                <p>Receba em primeira mão as ofertas e informações sobre bikes.</p>
+            </section>
+            <div class="newsletter-dados">
+                <form>
+                    <input type="text" placeholder="Nome">
+                    <input type="email" placeholder="E-mail">
+                </form>
+            </div>
+            <div class="newsletter-checkbox">
+                <input type="checkbox" name="newsletter" id="ncheck">
+                <label for="ncheck">Desejo receber e-mails com as novidades.</label>
+            </div>
+            <button>
+                <input type="button" value="Enviar">
+            </button>
         </section>
+    </main>
+    <footer>
+        <section class="rights">
+            <p>&copy; Todos os direitos dessa página estão reservados a Gabriel Cruz.</p>
+        </section>
+        <nav aria-label="Navegação da barra de contatos"id="Contatos">
+            <ul>
+                <li>
+                    <h2>Instagram</h2>
+                    <a href="https://www.instagram.com/_g.cruzs/" target="_blank" rel="noopener noreferrer" aria-label="Link do Instagram">
+                        <i class ="fab fa-instagram fa-2x"></i>
+                    </a>
+                </li>
+                <li>
+                    <h2>Github</h2>
+                    <a href="https://github.com/gabrielcruz07" target="_blank" rel="noopener noreferrer" aria-label="Link do Github">
+                        <i class="fab fa-github fa-2x"></i>
+                    </a>
+                </li>
+                <li>
+                    <h2>Linkedin</h2>
+                    <a href="www.linkedin.com/in/gabriel-cruz-7536641bb" target="_blank" rel="noopener noreferrer" aria-label="Link do Linkedin">
+                        <i class="fab fa-linkedin fa-2x"></i>
+                    </a>
+                </li>
+                <li>
+                    <h2>Discord</h2>
+                    <a href="https://discord.com/channels/@gabriel_cruz.souza" target="_blank" rel="noopener noreferrer" aria-label="Link do Discord">
+                        <i class="fab fa-discord fa-2x"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
     </footer>
 </body>
 
