@@ -6,14 +6,3 @@
     font: inherit;
     vertical-align: baseline;
 }
-body{
-    background-color: rgb(5, 138, 5);
-    display: flex;
-    flex-direction: column;
-}
-.navbar{
-    background-color: blueviolet;
-    height: 20px;
-    display: flex;
-    justify-content: space-between;
-}
