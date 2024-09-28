@@ -20,9 +20,9 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 body {
-  display: flex; /* Ativa o Flexbox no body */
-  flex-direction: column; /* Organiza os itens verticalmente */
-  min-height: 100vh; /* Garante que o body ocupe pelo menos a altura da tela */
+  display: flex;
+  flex-direction: column; 
+  min-height: 100vh; 
   line-height: 1.5;
   font-size: 25px;
   font-weight: bold;
@@ -40,7 +40,7 @@ body {
   background-color: rgb(19, 19, 204);
   display: flex;
   justify-content: center;
-  align-items: center; /* Ajuste aqui, não precisa de flex-direction: column */
+  align-items: center;
   height: 40px;
 }
 
@@ -49,8 +49,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-grow: 1; /* Faz o conteúdo ocupar o espaço restante */
-  flex-direction: column; /* Mantém a direção vertical para o conteúdo interno */
+  flex-grow: 1; 
+  flex-direction: column;
 }
 
 .footer {
